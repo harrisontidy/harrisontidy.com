@@ -11,3 +11,7 @@ All images use `object-fit: contain` so the full source remains visible. Screens
 - esp32-rc-car.png: original RC car photo supplied by Harrison. Displayed with a CSS crop; the full original opens on click.
 
 - autobom-build-circuit.png: screenshot supplied by Harrison for the Build the circuit story step.
+
+- writeaway-pen.png: supplied pen assembly render.
+- writeaway-pcb-cad.png and writeaway-pcb-prototype.png: supplied PCB design and physical prototype, grouped in one Different prototypes panel.
+- writeaway-projection.png: supplied working projection demonstration; integration/debugging ongoing. CSS crop trims the black margins in the page; click opens the complete source.
