@@ -15,3 +15,7 @@ All images use `object-fit: contain` so the full source remains visible. Screens
 - writeaway-pen.png: supplied pen assembly render.
 - writeaway-pcb-cad.png and writeaway-pcb-prototype.png: supplied PCB design and physical prototype, grouped in one Different prototypes panel.
 - writeaway-projection.png: supplied working projection demonstration; integration/debugging ongoing. CSS crop trims the black margins in the page; click opens the complete source.
+
+- writeaway-pcb-cad-clean.png: AI-assisted removal of editor markers and XYZ overlays; the original CAD screenshot is retained.
+- writeaway-pcb-revision.png: additional supplied PCB revision screenshot.
+- The physical PCB photo is rotated lengthwise with CSS inside the three-image prototype panel; its source file is unchanged.
