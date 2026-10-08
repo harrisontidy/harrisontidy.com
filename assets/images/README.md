@@ -7,3 +7,5 @@
 - `writeaway.webp`: add a product photo here to replace the remaining placeholder automatically.
 
 All images use `object-fit: contain` so the full source remains visible. Screenshots and prototype images link to their full-size originals.
+
+- esp32-rc-car.png: original RC car photo supplied by Harrison. Displayed with a CSS crop; the full original opens on click.
