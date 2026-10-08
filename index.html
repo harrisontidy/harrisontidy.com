@@ -1,82 +1,51 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Harrison Tidy — UBC Computer Engineering student and founder of WriteAway. Projects in embedded systems, robotics, hardware, and software.">
-  <meta name="theme-color" content="#f5f3ee">
-  <meta property="og:title" content="Harrison Tidy | Engineering Portfolio">
-  <meta property="og:description" content="Building across hardware, embedded systems, and software.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://harrisontidy.com/">
-  <link rel="canonical" href="https://harrisontidy.com/">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <title>Harrison Tidy | Engineering Portfolio</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Harrison Tidy. UBC Computer Engineering student building embedded systems, robotics, and software. Founder of WriteAway.">
+<meta name="theme-color" content="#111314"><meta property="og:title" content="Harrison Tidy | Engineering Portfolio"><meta property="og:description" content="Embedded systems, robotics, and software. UBC Computer Engineering."><meta property="og:type" content="website"><meta property="og:url" content="https://harrisontidy.com/">
+<link rel="canonical" href="https://harrisontidy.com/"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><title>Harrison Tidy | Engineering Portfolio</title>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap">
-    <a class="wordmark" href="#" aria-label="Harrison Tidy home">harrison tidy<span>.</span></a>
-    <nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a><a class="resume-nav" href="assets/harrison-tidy-resume.pdf" target="_blank" rel="noopener">Résumé <span aria-hidden="true">↗</span></a></nav>
-  </header>
-  <main id="main">
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="dot"></span> COMPUTER ENGINEERING · UBC</p>
-        <h1 id="hero-title">From an idea<br>to something<br><span class="serif">you can hold.</span></h1>
-        <p class="intro">I'm Harrison. I build hardware, embedded systems, and the software that connects them. Currently studying at UBC and leading engineering at WriteAway.</p>
-        <div class="actions"><a class="button" href="#projects">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="assets/harrison-tidy-resume.pdf" download>Download résumé <span aria-hidden="true">↗</span></a></div>
-      </div>
-      <figure class="hero-visual image-slot" data-image="portrait.webp">
-        <div class="placeholder portrait-placeholder"><span class="frame-corner top-left"></span><span class="frame-corner bottom-right"></span><div class="portrait-mark" aria-hidden="true">HT<span>+</span></div><div class="placeholder-note"><span class="small-label">A FACE BEHIND THE PROJECTS</span><p>Portrait / workshop photo</p><span class="small-label">IMAGE PLACEHOLDER</span></div></div>
-        <figcaption><span>BASED IN VANCOUVER, BC</span><span>49.28° N / 123.12° W</span></figcaption>
-      </figure>
-    </section>
-    <div class="focus-strip"><div class="wrap"><span>HARDWARE</span><span aria-hidden="true">+</span><span>EMBEDDED SYSTEMS</span><span aria-hidden="true">+</span><span>ROBOTICS</span><span aria-hidden="true">+</span><span>SOFTWARE</span></div></div>
-    <section class="projects wrap section" id="projects" aria-labelledby="projects-title">
-      <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="projects-title">Things I've been <span class="serif">building.</span></h2></div><p>From PCB revisions to applications.<br>A few projects across the stack.</p></div>
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-visual image-slot green" data-image="writeaway.webp"><div class="placeholder"><span class="visual-index">01 / HARDWARE + EMBEDDED</span><div class="pen-drawing" aria-hidden="true"><div></div><span></span></div><div class="visual-label"><span>WriteAway</span><small>PRODUCT PHOTO / CAD RENDER PLACEHOLDER</small></div></div></div>
-          <div class="project-heading"><h3>WriteAway</h3><span class="status">In development</span></div>
-          <p>An AI study pen, built from the inside out. I founded WriteAway and lead a four-person team working across electronics, firmware, and mechanical design.</p>
-          <p class="project-detail">Nearly 100 mechanical prints and 5+ PCB revisions, with hands-on prototyping and integration debugging.</p>
-          <div class="tags"><span>Product engineering</span><span>Embedded systems</span><span>Prototyping</span></div>
-          <a class="project-link" href="https://writeawaypen.com" target="_blank" rel="noopener">Visit WriteAway <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="project-card">
-          <div class="project-visual image-slot lilac" data-image="autobom.webp"><div class="placeholder"><span class="visual-index">02 / SOFTWARE + ELECTRONICS</span><div class="circuit-drawing" aria-hidden="true"><span>AI</span><i></i><b>KiCad</b></div><div class="visual-label"><span>AutoBOM</span><small>APP SCREENSHOT PLACEHOLDER</small></div></div></div>
-          <div class="project-heading"><h3>AutoBOM</h3><span class="year">2026</span></div>
-          <p>An AI assistant inside KiCad for component sourcing and application-circuit generation. Plain-English requests become supplier searches, symbols, footprints, and datasheet imports.</p>
-          <p class="project-detail">50 component searches: 15.8-second median. Five application circuits: 17.4-second median, without saved circuit recipes.</p>
-          <div class="tags"><span>C++</span><span>Node.js</span><span>KiCad</span><span>DigiKey / LCSC</span></div>
-        </article>
-        <article class="project-card">
-          <div class="project-visual sand picklebot-photo"><img src="assets/images/picklebot-prototype.png" alt="PickleBot prototype with its paddle, swing mechanism, control boards, and wheeled platform; background removed" loading="lazy"><span class="visual-index photo-index">03 / ROBOTICS + VISION</span></div>
-          <div class="project-gallery"><a href="assets/images/picklebot-cad.png" target="_blank" rel="noopener"><img src="assets/images/picklebot-cad.png" alt="Exploded CAD view of PickleBot's paddle and robot assembly" loading="lazy"><span>Mechanical design ↗</span></a><a href="assets/images/picklebot-pcb.png" target="_blank" rel="noopener"><img src="assets/images/picklebot-pcb.png" alt="PickleBot custom power and control PCB layout" loading="lazy"><span>Power &amp; control PCB ↗</span></a></div>
-          <div class="project-heading"><h3>PickleBot</h3><span class="status">In development</span></div>
-          <p>An autonomous pickleball-playing robot with differential steering and a three-degree-of-freedom swing mechanism.</p>
-          <p class="project-detail">Developing ball and court tracking on Raspberry Pi 5 with Hailo-8L, ESP32 motor control, and a custom power and control PCB.</p>
-          <div class="tags"><span>Raspberry Pi</span><span>ESP32</span><span>Computer vision</span><span>KiCad</span></div>
-        </article>
-        <article class="project-card">
-          <div class="project-visual image-slot blue" data-image="scheduler.webp"><div class="placeholder"><span class="visual-index">04 / WEB APPLICATION</span><div class="calendar-drawing" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="visual-label"><span>UBC Course Scheduler</span><small>CALENDAR SCREENSHOT PLACEHOLDER</small></div></div></div>
-          <div class="project-heading"><h3>UBC Course Scheduler</h3><span class="year">2026</span></div>
-          <p>A course scheduling app with calendar views and term selection, built to handle the details of a university timetable.</p>
-          <p class="project-detail">Recurring and alternate-week classes, date filtering, and duplicate meeting detection.</p>
-          <div class="tags"><span>React</span><span>TypeScript</span><span>Tailwind CSS</span></div>
-        </article>
-      </div>
-    </section>
-    <section class="about section" id="about" aria-labelledby="about-title"><div class="wrap about-grid">
-      <div><p class="eyebrow">02 / A LITTLE CONTEXT</p><h2 id="about-title">I like making<br>the pieces <span class="serif">work together.</span></h2><p class="about-intro">I'm a Computer Engineering student at the University of British Columbia, graduating in April 2029. My work spans circuit boards, mechanical assemblies, embedded firmware, and web applications.</p><p class="about-intro">At WriteAway, I work with engineers to select components, shape the system architecture, and solve problems where hardware and software meet.</p><div class="education"><span class="small-label">EDUCATION</span><h3>University of British Columbia</h3><p>BASc, Computer Engineering · Expected April 2029</p><p>GPA: 4.0 / 4.0</p></div></div>
-      <div class="experience"><p class="eyebrow">EXPERIENCE</p><article><div class="job-top"><span>2024 — PRESENT</span><span>01</span></div><h3>Founder &amp; Head of Engineering</h3><h4>WriteAway AI</h4><p>Founded the company, interviewed and hired engineers, and lead a four-person product development team. Hands-on prototyping across firmware, electronics, and mechanical parts.</p></article><article><div class="job-top"><span>JUN — AUG 2026</span><span>02</span></div><h3>PCB Assembly &amp; Soldering Technician</h3><h4>Creation Technologies · Burnaby, BC</h4><p>Assembled, hand-soldered, and inspected PCBs for military, industrial, and medical applications. Received internal IPC-A-610 and J-STD-001 training and applied production quality and ESD procedures.</p></article></div>
-    </div></section>
-    <section class="skills wrap section" aria-labelledby="skills-title"><p class="eyebrow">03 / TOOLKIT</p><h2 id="skills-title">Tools I <span class="serif">work with.</span></h2><div class="skill-grid"><div><span class="skill-number">01</span><h3>Software</h3><p>C · C++ · Python · Java · Git / GitHub · OpenCV · AI-assisted coding &amp; workflow automation</p></div><div><span class="skill-number">02</span><h3>Embedded systems</h3><p>ESP32 · ESP-IDF · FreeRTOS · Arduino IDE · ESP RainMaker · Wi-Fi · BLE · UART · I2C · SPI</p></div><div><span class="skill-number">03</span><h3>Hardware &amp; prototyping</h3><p>KiCad · Fusion 360 · Soldering · Mechanical assembly · FDM &amp; resin 3D printing</p></div></div></section>
-    <section class="contact wrap" id="contact" aria-labelledby="contact-title"><p class="eyebrow">04 / GET IN TOUCH</p><h2 id="contact-title">Let's build<br><span class="serif">something useful.</span></h2><a class="email-link" href="mailto:harrisontidy37@icloud.com">harrisontidy37@icloud.com <span aria-hidden="true">↗</span></a><div class="social-links"><a href="https://github.com/harrisontidy" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/harrison-tidy-5097632b6" target="_blank" rel="noopener">LinkedIn ↗</a><a href="assets/harrison-tidy-resume.pdf" target="_blank" rel="noopener">Résumé ↗</a></div></section>
-  </main>
-  <footer class="wrap"><span>© <span id="year">2026</span> Harrison Tidy</span><a href="#">Back to top ↑</a></footer>
-  <script src="script.js"></script>
-</body>
-</html>
+<a class="skip-link" href="#projects">Skip to projects</a>
+<header class="wrap"><a class="wordmark" href="#">HT.</a><nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="assets/harrison-tidy-resume.pdf" target="_blank" rel="noopener">Résumé ↗</a><a href="mailto:harrisontidy37@icloud.com">Contact ↗</a></nav></header>
+<main class="wrap">
+<section class="intro" aria-labelledby="name"><p class="label">$ whoami</p><div class="intro-row"><div><h1 id="name">Harrison Tidy<span>_</span></h1><p>UBC Computer Engineering · Hardware, robotics &amp; software</p></div><div class="links"><a href="https://github.com/harrisontidy" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/harrison-tidy-5097632b6" target="_blank" rel="noopener">LinkedIn ↗</a></div></div></section>
+<section id="projects" aria-labelledby="projects-title"><div class="section-heading"><h2 id="projects-title">Projects</h2><span>$ ls ./projects</span></div><div class="project-grid">
+<article class="project">
+<a class="project-image screenshot" href="assets/images/autobom-application-circuit-placed.png" target="_blank" rel="noopener"><img src="assets/images/autobom-application-circuit-placed.png" alt="AutoBOM working inside KiCad: generated CAN transceiver circuit placed in a schematic"><span class="image-hint">View screenshot ↗</span></a>
+<div class="gallery" aria-label="AutoBOM demo screenshots">
+<a href="assets/images/autobom-design-assistant.png" target="_blank" rel="noopener" aria-label="View AutoBOM Design Assistant"><img src="assets/images/autobom-design-assistant.png" alt="Design Assistant" loading="lazy"></a>
+<a href="assets/images/autobom-esp32-search.png" target="_blank" rel="noopener" aria-label="View ESP32 component search"><img src="assets/images/autobom-esp32-search.png" alt="ESP32 search" loading="lazy"></a>
+<a href="assets/images/autobom-application-circuit-ready.png" target="_blank" rel="noopener" aria-label="View generated circuit and placement controls"><img src="assets/images/autobom-application-circuit-ready.png" alt="Circuit generation" loading="lazy"></a>
+<a href="assets/images/autobom-bom-before.png" target="_blank" rel="noopener" aria-label="View BOM before completion"><img src="assets/images/autobom-bom-before.png" alt="BOM before" loading="lazy"></a>
+<a href="assets/images/autobom-bom-filled.png" target="_blank" rel="noopener" aria-label="View BOM after completion"><img src="assets/images/autobom-bom-filled.png" alt="BOM after" loading="lazy"></a>
+</div>
+<div class="project-heading"><h3>AutoBOM</h3><a href="https://github.com/harrisontidy/auto_BOM" target="_blank" rel="noopener">GitHub ↗</a></div>
+<p>I built an AI assistant inside KiCad that finds components, generates application circuits, and fills missing BOM part numbers.</p>
+<ul><li><strong>C++ / wxWidgets:</strong> added native assistant and BOM-review controls to KiCad.</li><li><strong>JavaScript / Node.js:</strong> connected the editor to a local backend using HTTP and JSON.</li><li><strong>Supplier &amp; CAD integration:</strong> DigiKey and JLCPCB/LCSC sourcing, EasyEDA/SnapMagic imports, and reviewed schematic placement.</li></ul>
+</article>
+<article class="project">
+<a class="project-image robot" href="assets/images/picklebot-prototype.png" target="_blank" rel="noopener"><img src="assets/images/picklebot-prototype.png" alt="PickleBot physical prototype with background removed"><span class="image-hint">View prototype ↗</span></a>
+<div class="gallery" aria-label="PickleBot design images"><a href="assets/images/picklebot-cad.png" target="_blank" rel="noopener" aria-label="View PickleBot mechanical CAD"><img src="assets/images/picklebot-cad.png" alt="Mechanical CAD" loading="lazy"></a><a href="assets/images/picklebot-pcb.png" target="_blank" rel="noopener" aria-label="View PickleBot PCB"><img src="assets/images/picklebot-pcb.png" alt="Power and control PCB" loading="lazy"></a><span class="gallery-note">Prototype · CAD · PCB</span></div>
+<div class="project-heading"><h3>PickleBot <span class="status">In development</span></h3><a href="https://github.com/harrisontidy/pickleball-robot" target="_blank" rel="noopener">GitHub ↗</a></div>
+<p>I'm building an autonomous pickleball robot with differential drive and a three-degree-of-freedom paddle swing.</p>
+<ul><li><strong>Python / OpenCV:</strong> prototype ball tracking with colour segmentation, Kalman prediction, and optical flow.</li><li><strong>Raspberry Pi / ESP32:</strong> designed UART communication and PWM motor/servo control.</li><li><strong>KiCad / mechanical design:</strong> custom controller electronics, aluminum extrusion, shaft couplers, and 3D-printed parts.</li></ul>
+</article>
+<article class="project">
+<div class="project-image image-slot" data-image="writeaway.webp"><div class="placeholder"><span>WriteAway</span><small>Product photo coming soon</small></div></div>
+<div class="project-heading"><h3>WriteAway <span class="status">In development</span></h3><a href="https://writeawaypen.com" target="_blank" rel="noopener">Website ↗</a></div>
+<p>I founded WriteAway to put AI assistance into a handheld study pen, and lead a four-person engineering team developing it.</p>
+<ul><li><strong>System architecture:</strong> worked with engineers on chip selection and hardware/software integration.</li><li><strong>Prototyping:</strong> nearly 100 mechanical prints and 5+ PCB revisions.</li><li><strong>Engineering leadership:</strong> hired engineers and helped debug firmware, electronics, and mechanical interfaces.</li></ul>
+</article>
+<article class="project">
+<a class="project-image screenshot" href="assets/images/scheduler.png" target="_blank" rel="noopener"><img src="assets/images/scheduler.png" alt="UBC Course Calendar showing a weekly class timetable" loading="lazy"><span class="image-hint">View screenshot ↗</span></a>
+<div class="project-heading"><h3>UBC Course Scheduler</h3><a href="https://github.com/harrisontidy/harrison-tidy-course-calendar" target="_blank" rel="noopener">GitHub ↗</a></div>
+<p>I built a mobile-friendly calendar that turns a UBC course export into a day or week timetable.</p>
+<ul><li><strong>React / TypeScript / Tailwind:</strong> calendar views, term selection, and class-detail panels.</li><li><strong>Scheduling logic:</strong> recurring and alternate-week meetings, date filtering, and duplicate detection.</li><li><strong>Course data:</strong> room, instructor, and meeting details with Google Maps and Apple Maps links.</li></ul>
+</article>
+</div></section>
+</main>
+<footer class="wrap"><a href="mailto:harrisontidy37@icloud.com">harrisontidy37@icloud.com ↗</a><span>© <span id="year">2026</span> Harrison Tidy</span></footer>
+<script src="script.js"></script>
+</body></html>

@@ -1,17 +1,9 @@
 # Portfolio images
 
-Add these files here. The website automatically replaces the corresponding placeholder when a file is available:
+- `autobom-*.png`: six original screenshots from https://github.com/harrisontidy/auto_BOM/tree/HEAD/docs/images (Design Assistant, ESP32 search, generated circuit, placement controls, BOM before/after).
+- `scheduler.png`: original screenshot from https://github.com/harrisontidy/harrison-tidy-course-calendar.
+- `picklebot-prototype.png`: AI-assisted background removal from the supplied physical prototype photograph.
+- `picklebot-cad.png` and `picklebot-pcb.png`: unchanged screenshots supplied by Harrison.
+- `writeaway.webp`: add a product photo here to replace the remaining placeholder automatically.
 
-| Filename | Content | Suggested size |
-| --- | --- | --- |
-| `portrait.webp` | Portrait or workshop photo | 1000 × 1100 |
-| `writeaway.webp` | Pen prototype or CAD render | 1200 × 700 |
-| `autobom.webp` | KiCad / AutoBOM screenshot | 1200 × 700 |
-| `picklebot-prototype.png` | Cleaned prototype photo (already included) | Transparent PNG |
-| `picklebot-cad.png` | Supplied mechanical design (already included) | Original screenshot |
-| `picklebot-pcb.png` | Supplied PCB design (already included) | Original screenshot |
-| `scheduler.webp` | Course calendar screenshot | 1200 × 700 |
-
-Images fill the frame with `object-fit: cover`. Keep important details near the center. You can change filenames and image descriptions in `index.html` and `script.js` to use PNG or JPEG instead.
-
-PickleBot uses `object-fit: contain` so the full robot and board remain visible. The prototype photo is an AI-assisted background removal of the supplied photograph; the CAD and PCB screenshots are unchanged.
+All images use `object-fit: contain` so the full source remains visible. Screenshots and prototype images link to their full-size originals.

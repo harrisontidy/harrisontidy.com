@@ -1,39 +1,34 @@
 # Harrison Tidy — Personal Portfolio
 
-Personal engineering portfolio for **harrisontidy.com**, based on Harrison's Embedded Mechatronics résumé. Responsive static HTML, CSS, and JavaScript, with no build step or dependencies.
+A compact project-focused portfolio for **harrisontidy.com**. Dark theme inspired by lucastidy.com, with project pictures, short descriptions, and technical implementation bullets. Static HTML/CSS/JavaScript; no build step or dependencies.
 
-## Local preview
+## Preview
 
-Run from this directory:
+From this directory, run `python -m http.server 8080` and open http://localhost:8080.
 
-```powershell
-python -m http.server 8080
-```
+## Edit
 
-Open http://localhost:8080. You can also open `index.html` directly.
+- `index.html`: projects, descriptions, technical bullets, and links.
+- `styles.css`: dark theme and responsive layout.
+- `script.js`: replaces the WriteAway placeholder when `assets/images/writeaway.webp` is added.
+- `assets/harrison-tidy-resume.pdf`: original supplied résumé.
+- `assets/images/README.md`: image provenance and replacement instructions.
 
-## Edit content
+## Content sources
 
-- `index.html`: biography, projects, experience, skills, and links.
-- `styles.css`: layout, colors, typography, and mobile styles.
-- `script.js`: automatic image-placeholder replacement.
-- `assets/harrison-tidy-resume.pdf`: downloadable résumé (the supplied original).
-- `assets/images/README.md`: image filenames and recommended sizes.
+- Harrison's supplied Embedded Mechatronics résumé: WriteAway, education, and original project descriptions.
+- https://github.com/harrisontidy/auto_BOM: README, repository guide, native C++ integration patches, and server.js. Confirms native wxWidgets controls and local HTTP/JSON communication with Node.js.
+- https://github.com/harrisontidy/pickleball-robot: tracking/README.md and simple_hobby_controller/README.md. Describes the prototype tracking algorithm and UART/PWM controller design. In-progress wording is intentional.
+- https://github.com/harrisontidy/harrison-tidy-course-calendar: README and original screenshot.
 
-Projects without supplied repository or demo URLs have no invented links. PickleBot and WriteAway are labeled as in development. The résumé PDF includes the contact information from the original supplied document.
+Project source documentation describes implementation; this portfolio update does not verify the hardware or rerun the source projects.
 
-## Cloudflare Pages
+## Deploy with Cloudflare Pages
 
-1. Open Cloudflare → Workers & Pages → Create application → Pages → Connect to Git.
-2. Select this GitHub repository and the `main` branch.
-3. Choose framework preset **None**. Leave the build command empty and use `/` as the build output directory. If asked for a root directory, leave it empty.
-4. Deploy. Check the generated `pages.dev` URL.
-5. In the Pages project's **Custom domains**, add `harrisontidy.com` and follow Cloudflare's DNS instructions. Add `www.harrisontidy.com` too if desired.
+1. Cloudflare → Workers & Pages → Create application → Pages → Connect to Git.
+2. Select this repository and `main`.
+3. Framework: None. Build command: empty. Build output directory: `/`. Root directory: empty.
+4. Deploy and check the generated `pages.dev` URL.
+5. In the Pages project's Custom domains, add `harrisontidy.com` and follow the DNS instructions.
 
-Git integration redeploys automatically after pushes to `main`.
-
-Docs: https://developers.cloudflare.com/pages/get-started/git-integration/ and https://developers.cloudflare.com/pages/configuration/custom-domains/
-
-## Verification
-
-Check desktop and mobile layouts, project navigation, résumé download, and contact links. Verify both the `pages.dev` URL and the custom domain after deployment; repository creation alone does not publish the site.
+Pushes to `main` trigger deployments once Git integration is connected. The repository alone does not publish the site.
