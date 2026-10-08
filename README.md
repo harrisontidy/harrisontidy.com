@@ -32,3 +32,9 @@ Project source documentation describes implementation; this portfolio update doe
 5. In the Pages project's Custom domains, add `harrisontidy.com` and follow the DNS instructions.
 
 Pushes to `main` trigger deployments once Git integration is connected. The repository alone does not publish the site.
+
+## Project presentation
+
+Each project has its own large scrolling section. Content uses an IntersectionObserver fade/slide reveal, with readable fallbacks when JavaScript is off or reduced motion is requested. AutoBOM uses three selectable story steps: component search, placed circuit, and completed BOM. Only these three images appear in the page.
+
+WriteAway's embedded C, I2C/SPI, and OV2640 architecture details were supplied by Harrison for this update. OV2640 terminology was checked against the manufacturer datasheet hosted by Espressif: https://dl.espressif.com/dl/schematics/Camera_OV2640.pdf (parallel DVP image output and SCCB camera control). The text describes architecture oversight rather than sole firmware authorship.
