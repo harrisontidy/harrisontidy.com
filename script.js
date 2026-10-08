@@ -1,6 +1,6 @@
 const steps = [
   { image: 'autobom-esp32-search.png', alt: 'AutoBOM finds an ESP32 component with stock, price, package, and CAD details', caption: 'Describe what you need. The assistant finds an ESP32 match with stock, price, package, and CAD details.' },
-  { image: 'autobom-application-circuit-placed.png', alt: 'A generated CAN transceiver application circuit placed inside KiCad', caption: 'Go from a part to a circuit. This demo generates and places a CAN transceiver application circuit with its supporting components in KiCad.' },
+  { image: 'autobom-build-circuit.png', alt: 'Generated CAN transceiver circuit beside the AutoBOM assistant and its placement controls in KiCad', caption: 'Go from a part to a circuit. The assistant generates a CAN transceiver application circuit with supporting components, ready to place in KiCad.' },
   { image: 'autobom-bom-filled.png', alt: 'Completed BOM with manufacturer and supplier part numbers', caption: 'Finish the parts list. Review and apply suggested manufacturer and supplier part numbers, then export the completed BOM for ordering.' },
 ];
 const storyImage = document.querySelector('#story-image');
